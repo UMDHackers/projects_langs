@@ -3,49 +3,29 @@
 #include <iostream>
 using namespace std;
 int main() {
-  double given = 0.0, cost = 0.0, difference = 0.0;
-  cout << "What is the cost?" ;
+  double given = 0.0, cost = 0.0, difference = 0.0, pennies = 0.0;
+  cout << "What is the cost? " << endl;
   cin >> cost;
-  cout << "What is the given amount?" ;
+  cout << "What is the given amount? " << endl ;
   cin >> given;
-  difference = cost - given;
-  int quaters, nickels, dimes, pennies;
+  difference = given - cost;
+  int quaters = 0 , nickels = 0, dimes = 0;
   if(difference >= 0.25) {
     	quaters = ((int)(difference/0.25));
-	difference = difference - (quaters * .25);
-  } 
-  if(difference <= 0.20 && difference >= 0.10 ) {
+	difference = difference - (quaters * 0.25);
+  }
+ 
+  if(difference >= 0.10 ) {
+	cout << "HERE in dime" << endl;
 	dimes = ((int)(difference/0.10));
-	difference = difference - (dimes * .10);
+	difference = difference - (dimes * 0.10);
   }
-  if(difference < 0.10 && difference >= 0.5) {
+ 
+  if(difference >= 0.05) {
 	nickels = ((int)(difference/0.05));
-	difference = difference - (nickels * .10);
+	difference = difference - (nickels * 0.05);
   }
-  pennies = difference;
-  cout << "Quaters: " << quaters << " dimes: " << dimes  << " Nickels: " << nickels << " pennies: " << pennies << "\n";
-
-
-/*
-  int quaters = ((int)(difference/0.25));
-  difference = difference - (quaters * .25);
-  if(differecne != 0) {
-  	int dime = ((int)(difference/0.10));
-  	difference = differecne - (dime * .1);
-	cout "Dimes: "<< dime << "\n"
-	if(difference != 0) {
-		int nickel = ((int)(difference/0.10));
-		difference = differecne - (nickel * .5);
-		cout << "Nickels: " << nickel << "\n";
-		if (difference != 0) {
-			int pennies = difference;
-			cout << "Total pennies: "<< pennies << "\n";
-		}
-	}
-  }
-	
-*/
- //cout << "Total quaters" << quaters << "\n";
-  
+  pennies = difference * 100;
+  cout << "Quaters: " << quaters << " dimes: " << dimes  << " Nickels: " << nickels << " pennies: " << pennies << endl;
 
 }
