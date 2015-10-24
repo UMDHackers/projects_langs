@@ -7,3 +7,5 @@
 5. Change return, C++
 6. Prime factor, C++
 7. Mortgage calculator, Phyton 3  
+8. Collatz, Bash
+9. binaryToDecimal, Phyton 3
