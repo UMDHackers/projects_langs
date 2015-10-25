@@ -1,4 +1,4 @@
-# projects_langs
+# Coding Projects
 
 1. Fibonacci code, Phyton 3
 2. alarm clock, Phyton 3
