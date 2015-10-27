@@ -14,3 +14,7 @@
 1. Script/Project Euler/diffculties
 2. Perl Script/kissanime/download
 3. Somethimg with socket.io
+4. Windows app, Amazon App, Android App, IPhone App
+
+
+
