@@ -9,6 +9,8 @@
 7. Mortgage calculator, Phyton 3  
 8. Collatz, Bash
 9. binaryToDecimal, Phyton 3
+10. BROKEN CALC, ruby
+11. Happy numbers, Python 3
 
 ##Ideas
 1. Script/Project Euler/diffculties
