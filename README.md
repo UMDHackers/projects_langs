@@ -11,6 +11,8 @@
 9. binaryToDecimal, Phyton 3
 10. BROKEN CALC, ruby
 11. Happy numbers, Python 3
+12. Factorial, Python 3
+13. Power in lgN, Python 3
 
 ##Ideas
 1. Script/Project Euler/diffculties
